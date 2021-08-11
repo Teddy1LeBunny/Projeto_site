@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+    margin-top: 0 ;
+
+}
+
+.principal { 
+    background-image:url(../imagens/bg-4.jpg);
+    width: auto;
+    height: 500px;
+    background-position: right top;
+    background-size: cover;
+    border: 1px solid transparent;
+}
+
+.upmenu{
+    text-align: right;
+    margin: 10px 25px 0 0;
+}
+.upmenu li {
+    display: inline-block;
+    list-style: none;
+    color: blanchedalmond;
+    font-size: 15px;
+    border: 1px solid white;
+}
+.upmenu a{
+    color: white;   
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.4) ;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.upmenu a:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.content{ 
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.content h1{
+    font-size: 36px;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 4px #333;
+}
+
+.content p{
+    display: inline-block;
+    font-size: 15x;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom: 3px solid white;
+    text-shadow: 1px 1px 2px black;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.cards{
+    background-color: white;
+    margin-top: 15px;
+    padding: 10px;
+    overflow: auto;
+}
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card-1, .card-2{
+    margin-right: 2%;
+}
+
+.card p{
+    background-color:rgba(0, 0, 0, 0.7) ;
+    margin: 0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.texts {
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+.rodape {
+    color: white;
+    text-shadow: 2px 2px 3px, black;
+    background-color: rgb(105, 105, 105);
+    font-size: 14px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    
+
+}
